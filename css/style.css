@@ -107,7 +107,10 @@ footer {
 footer div {
 	display:inline;
 }
-
+/*
+Attention, c'est dangereux de manipuler les div.
+Ce sont des éléments tellement génériques et ils sont omniprésents.
+Préfère les classes ou autres.*/
 footer div div {
 	margin: 0 2px;
 }
